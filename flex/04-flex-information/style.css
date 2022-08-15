@@ -12,6 +12,29 @@ img {
   font-weight: 900;
 }
 
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.fruits-basket {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.plant {
+  max-width: 200px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
