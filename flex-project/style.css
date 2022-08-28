@@ -30,6 +30,13 @@ footer {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-left: 3%;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
 }
 
 button {
@@ -49,7 +56,12 @@ button {
 
 .third-card {
     background-color: #E5E7EB;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
 }
+
+
 
 .quote-text {
     font-size: 36px;
@@ -58,18 +70,15 @@ button {
     font-style: italic;
     color: #1F2937;
     padding-top: 70px;
-    padding-right: 70px;
-    padding-left: 90px;
     width: 800px;
+    padding-left: 20%;
 }
 
 .by {
     font-weight: bold;
     padding-bottom: 70px;
-    padding-right: 130px;
-    padding-left: 30px;
     text-align: right;
-    
+    padding-right: 20%;
 }
 
 .container p {
@@ -87,11 +96,16 @@ button {
 
 .header {
     display: flex;
-    flex-direction: row;
     gap: 20px;
     align-items: center;
+    
 }
- 
+
+.right-three {
+    font-weight: 200;
+    color: rgb(231, 231, 231);
+}
+
 .info-header {
     text-align: center;
 }
