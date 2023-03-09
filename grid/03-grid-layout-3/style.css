@@ -73,6 +73,11 @@ div.header, div.menu, div.logo {
   font-weight: normal;
 }
 
+.side-content, .photo {
+  display: grid;
+  align-items: center;
+}
+
 .nav {
   background-color: #FF7755;
   grid-area: 2 / 2 / 3 / 5;
