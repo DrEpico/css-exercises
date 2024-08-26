@@ -49,12 +49,16 @@ div.header, div.menu, div.logo {
 }
 
 .sidebar {
+<<<<<<< HEAD
   background-color: #FF7755;
   grid-column: 1/2;
   grid-row: 2/-2;
   display: grid;
   grid-gap: 50px;
   text-align: center;
+=======
+  background-color: #C50208;
+>>>>>>> upstream/main
 }
 
 .sidebar .photo {
@@ -79,6 +83,7 @@ div.header, div.menu, div.logo {
 }
 
 .nav {
+<<<<<<< HEAD
   background-color: #FF7755;
   grid-area: 2 / 2 / 3 / 5;
   
@@ -95,6 +100,9 @@ div.nav {
   justify-items: center;
   justify-content: center;
   align-items: center;
+=======
+  background-color: #C50208;
+>>>>>>> upstream/main
 }
 
 .nav ul li {
@@ -144,5 +152,5 @@ div.nav {
 
 .footer p {
   font-size: 13px;
-  font-weight: normal;  
+  font-weight: normal;
 }

@@ -31,11 +31,15 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+<<<<<<< HEAD
   display: flex;
   flex-shrink: 0;
   padding: 16px;
 
   
+=======
+  box-sizing: border-box;
+>>>>>>> upstream/main
 }
 
 .card {
