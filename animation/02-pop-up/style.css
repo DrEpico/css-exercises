@@ -56,8 +56,20 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
+
 }
 
 .backdrop.show {
   opacity: 30%;
+}
+
+.popup-modal {
+  transition: transform, .3s ease-in-out;
+  transform: translate(-50%, -100%); 
+  /* 100% upwards (vertically) from its current position. 
+  This means the modal will be positioned outside the top of the viewport, making it invisible initially. */
+}
+
+.popup-modal.show {
+  transform: translate(-50%, -50%);
 }
